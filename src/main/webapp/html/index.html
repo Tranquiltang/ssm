@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <title>首页</title>
+    <script src="/js/framework.core.js" type="text/javascript"></script>
+</head>
+<body>
+
+  <div class="container" style="width: 750px;height: 600px;border: 1px solid #000000;margin-left: 20%">
+      <fieldset id="fd1" style="width:600px;">
+          <legend><span>秘钥同步</span></legend>
+          <div class="fieldset-body">
+              商户号：<input id="iptMerchantNo" class="mini-textbox"  />
+              <button class="mini-button" id="btnSynKey" iconCls="icon-reload">同步秘钥</button>
+          </div>
+      </fieldset>
+
+      <fieldset id="fd2" style="width:600px;">
+          <legend><span>充值</span></legend>
+          <div class="fieldset-body">
+
+              <button class="mini-button" id="btnIncome" iconCls="icon-upload">充值</button>
+          </div>
+      </fieldset>
+
+      <fieldset id="fd3" style="width:600px;">
+          <legend><span>查询</span></legend>
+          <div class="fieldset-body">
+              流水号：<input id="iptBusino" class="mini-textbox" width="300px" />
+              <button class="mini-button" id="btnSearch" iconCls="icon-search">查询</button>
+          </div>
+      </fieldset>
+
+      <fieldset id="fd4" style="width:600px;">
+          <legend><span>车辆信息推送</span></legend>
+          <div class="fieldset-body">
+              <span>车辆名称：</span><input id="" class="mini-textbox"/>
+              <button class="mini-button" id="btnPushCarInfo" iconCls="icon-upload">推送</button>
+          </div>
+      </fieldset>
+
+  </div>
+
+<!--jQuery-->
+<script src="/js/jquery-1.8.2.min.js" type="text/javascript"></script>
+<!--miniUI css-->
+<link href="/extends/miniui/themes/default/miniui.css" rel="stylesheet" type="text/css" />
+<!--miniUI js-->
+<script  src="/extends/miniui/miniui.js" type="text/javascript"></script>
+
+<link href="/extends/miniui/themes/icons.css" rel="stylesheet" type="text/css" />
+<!--外部js-->
+<script src="/js/payment/advance-payment.js" type="text/javascript" ></script>
+<link href="/css/payment/advance.payment.css" rel="stylesheet" type="text/css" />
+</body>
+</html>
